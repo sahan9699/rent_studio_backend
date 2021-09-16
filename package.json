@@ -9,10 +9,13 @@
   "author": "sahan_vindana",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "fawn": "^2.1.5",
     "joi": "^13.1.0",
     "joi-objectid": "^4.0.2",
+    "joi-password-complexity": "^5.1.0",
+    "lodash": "^4.17.4",
     "mongoose": "^6.0.5",
     "nodemon": "^2.0.12"
   }
