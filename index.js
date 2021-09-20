@@ -14,6 +14,8 @@ process.on('uncaughtException', (ex) => {
 require('./startup/routes')(app);
 require('./startup/db')();
 require('./startup/config')();
+require('./startup/pod')(app);
+
 
 winston.add(winston.transports.File, {filename: 'logfile.log'});
 
